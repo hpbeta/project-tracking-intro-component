@@ -1,0 +1,130 @@
+body {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding-top: 60px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation .nav-list {
+  display: flex;
+  gap: 25px;
+  text-transform: uppercase;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 700;
+  color: hsl(230, 29%, 20%);
+  opacity: 0.9;
+  font-size: 14px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.navigation .nav-list li:hover {
+  text-decoration: underline;
+}
+
+.navigation .nav-list .btn-login {
+  border: none;
+  color: hsl(230, 11%, 40%);
+  background-color: transparent;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-left: 50px;
+  transition: 0.3s;
+}
+
+.navigation .nav-list .btn-login:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.menu-hamburguer {
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  margin-top: 100px;
+  align-items: center;
+  gap: 40px;
+}
+
+.container .content-info .new {
+  background-color: hsl(230, 29%, 20%);
+  color: #fff;
+  border-radius: 10px;
+  padding: 3px 5px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 12px;
+  font-family: "Barlow", sans-serif;
+}
+
+.container .content-info .dashboard {
+  color: hsl(231, 7%, 65%);
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 3px;
+}
+
+.container .content-info .title {
+  color: hsl(230, 29%, 20%);
+  font-size: 50px;
+  text-transform: uppercase;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 700;
+  width: 450px;
+  line-height: 50px;
+  margin-top: 13px;
+}
+
+.container .content-info .paragraph {
+  color: hsl(231, 7%, 65%);
+  margin-top: 25px;
+  font-family: "Barlow", sans-serif;
+  width: 250px;
+  line-height: 21px;
+}
+
+.container .content-info .btn-schedule {
+  background-color: hsl(0, 100%, 68%);
+  border: none;
+  font-family: "Barlow Condensed", sans-serif;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 4px;
+  padding: 10px 25px;
+  font-size: 15px;
+  text-transform: uppercase;
+  margin-top: 50px;
+}
+
+.container .content-info .btn-schedule:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.container .content-info .preview {
+  color: hsl(231, 7%, 65%);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 13px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.content-ilustration img {
+  width: 730px;
+}
+
+.icon-hamburguer {
+  display: none;
+}
+
+hr {
+  opacity: 0;
+}
